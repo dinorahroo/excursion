@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -8,13 +8,14 @@ body {
 
 .header-one {
     font-size: 50px;
-    padding-top: 40px;
+    
+    color: white;
 }
 
-.header-two {
+.header-two a {
     font-size: 16px;
-    color: aquamarine;
-    padding: 25px;
+    color: aquamarine; 
+    
 }
 
 .header-three, .header-five {
@@ -27,11 +28,8 @@ body {
     color: grey;
 }
 
-.phone-icon {
-    padding: 25px;
-}
 
 .copyright {
     text-align: right;
-    padding-left: 20px;
+    
 }
